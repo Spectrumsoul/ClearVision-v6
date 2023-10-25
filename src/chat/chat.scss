@@ -13,12 +13,8 @@
   %chatContentWrapper {
     background: transparent;
     &:before {
-      display: none;
+      box-shadow: none;
     }
-  }
-  %messages {
-    background: transparent;
-    backface-visibility: hidden;
   }
 
   // BASE
@@ -122,7 +118,8 @@
 }
 
 // CHAT LOADING
-%chatLoadingWrapper {
+%chatLoadingWrapper,
+%chatLoadingWrapperCozy {
   background-color: transparent;
 }
 

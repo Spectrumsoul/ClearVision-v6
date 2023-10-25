@@ -30,16 +30,6 @@
     color: var(--text-normal);
   }
 
-  // MENTIONED
-  %mentioned {
-    background: hsla(0, 0%, 100%, 0.1);
-    &:after {
-      background: hsla(0, 0%, 100%, 0.1);
-      border-left: 4px solid $main-color;
-      border-radius: 2px 0 0 2px;
-    }
-  }
-
   // BLOCKQUOTE
   %markup {
     %blockquoteDivider {
@@ -176,14 +166,26 @@
 }
 
 // PUBLISH TO FOLLOWERS
-.bumpBox-1Pp4td {
+.bumpBox_cfd81a {
 	background: hsla(0, 0%, 0%, .4);
 }
-.icon-3N9zCW,
-.tagline-7EjHTm {
+.icon_c766f4,
+.tagline_a404cb {
 	color: #fff;
 }
-.closeIcon-2Qp1gl,
-.hidePermanently-3f2ZH0 {
+.closeIcon__1f39d,
+.hidePermanently_a71dd2 {
 	color: hsla(0, 0%, 100%, .4) !important;
+}
+
+// AUTOMOD MESSAGE
+.embedCard-bDyD5S,
+.footerContainer-11-cKL  {
+	background-color: hsla(0, 0%, 0%, .4);
+}
+.footerAction-cEV-Po .text-xs-normal-3O7EaX {
+	color: $main-color !important;
+}
+.footerIcon-3nJDhW path {
+	fill: $main-color;
 }
